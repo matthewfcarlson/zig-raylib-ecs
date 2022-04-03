@@ -1,7 +1,7 @@
 const std = @import("std");
 const Builder = std.build.Builder;
 const LibExeObjStep = std.build.LibExeObjStep;
-const rl = @import("raylib/src/build.zig");
+const rl = @import("../raylib/src/build.zig");
 
 var ran_git = false;
 const srcdir = getSrcDir();
